@@ -1,0 +1,20 @@
+body{
+  background-color: rgb(227, 218, 218);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.marquee {
+  white-space: nowrap;
+  animation: move 5s linear infinite alternate;
+  color: rgb(152, 24, 24);
+  font-size: 30px;
+}
+
+@keyframes move {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(50%); }
+}

@@ -1,0 +1,16 @@
+.Container{
+    
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+    
+}
+.Subcontainer{
+    width: 1400px;
+    height: 500px;
+    
+}
+img{
+    border-radius: 10px;
+}

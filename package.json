@@ -1,0 +1,20 @@
+{
+  "name": "wine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd Wine_Quality && npm run dev",
+    "backend": "cd Backend && node back.js",
+    "ml": "python server.py",
+    "start-all": "concurrently \"npm run frontend\" \"npm run backend\" \"npm run ml\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "concurrently": "^9.2.1",
+    "flask": "^0.2.10"
+  }
+}
